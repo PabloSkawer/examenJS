@@ -1,0 +1,73 @@
+{
+  "medicamentos": [
+    {
+      "nombre": "Wsad",
+      "peso": "5",
+      "posologia": "55",
+      "presentacion": "1",
+      "repartir": "1",
+      "mgUnidad": "5",
+      "proximaDosis": "1005",
+      "id": 1
+    },
+    {
+      "nombre": "bfgbv",
+      "peso": "5",
+      "posologia": "5",
+      "presentacion": "2",
+      "repartir": "1",
+      "mgUnidad": "5",
+      "proximaDosis": "1031",
+      "id": 3
+    }
+  ],
+  "presentacion": [
+    {
+      "id": 1,
+      "name": "comprimidos"
+    },
+    {
+      "id": 2,
+      "name": "gotas"
+    },
+    {
+      "id": 3,
+      "name": "inyectables"
+    },
+    {
+      "id": 4,
+      "name": "sobres"
+    },
+    {
+      "id": 5,
+      "name": "solución"
+    }
+  ],
+  "repartir": [
+    {
+      "id": 1,
+      "dosis": 1,
+      "desc": "1 dosis = cada 24 horas"
+    },
+    {
+      "id": 2,
+      "dosis": 2,
+      "desc": "2 dosis = cada 12 horas"
+    },
+    {
+      "id": 3,
+      "dosis": 3,
+      "desc": "3 dosis = cada 8 horas"
+    },
+    {
+      "id": 4,
+      "dosis": 4,
+      "desc": "4 dosis = cada 6 horas"
+    },
+    {
+      "id": 5,
+      "dosis": 5,
+      "desc": "5 dosis = cada 4 horas"
+    }
+  ]
+}

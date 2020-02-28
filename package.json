@@ -1,0 +1,17 @@
+{
+  "name": "appmedicamentos",
+  "version": "1.0.0",
+  "description": "App para calcular la dosis de los medicamentos",
+  "main": "",
+  "scripts": {
+    "test": "mocha",
+    "start": "npx json-server --watch db.json"
+  },
+  "author": "Carlos Tessier Fdez",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "*",
+    "json-server": "*",
+    "mocha": "*"
+  }
+}

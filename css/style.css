@@ -1,0 +1,104 @@
+.container{
+  margin: 0rem 10vh;
+}
+
+.wrapper {
+  background-color: rgba(88, 183, 205, .2);
+  list-style-type: none;
+  border-radius: 3px;
+  margin: 0px;
+}
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: .5em;
+}
+.form-row > label {
+  padding: .5em 1em .5em 1em;
+
+}
+.form-row > input {
+  flex: 1;
+}
+
+.wrapper h1{
+  float:left;
+  margin: 0px;
+  padding: 0.5em;
+}
+
+.form-row > input,
+.form-row > select,
+.form-row > button {
+  padding: .5em;
+  margin: .5em;
+}
+.form-row > button {
+ background: gray;
+ color: white;
+
+}
+
+.form-row-centered{
+  justify-content: center;
+}
+
+.form-row-end{
+  justify-content: flex-end;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+
+button {
+   padding: .5em;
+   border: 0;
+   border-radius: .2em;
+   font-weight: bold;
+}
+
+
+.medicamentos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.card {
+    padding: 1em 1em;
+    width: 25em;
+    background: #fff;
+    border-radius: .2em;
+    border: solid 0.1em rgba(88, 183, 205, .2);
+     margin: 0.5em;
+}
+
+.card img {
+    width: 1.5em;
+    float:left;
+}
+
+.card h2 {
+    display: inline;
+}
+
+.card span  {
+  background: #FFAC00;
+  border-radius: 4px;
+  float:right;
+}
+
+button.administrar  {
+  background: #7bcbc4;
+}
+
+button.eliminar {
+  background: #ff5050;
+
+}
